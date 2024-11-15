@@ -14,3 +14,5 @@ This is a minecraft plugin wich runs a discord bot to whitelist user via discord
 ### Furture Features
 - [ ] multi server database
 - [ ] server mode recognition (offline with proxy, offline without proxy, online mode)
+- [ ] plugin version update checker
+- [ ] plugin auto updater ?
