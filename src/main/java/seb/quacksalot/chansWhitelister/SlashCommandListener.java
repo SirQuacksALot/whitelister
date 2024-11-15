@@ -21,7 +21,7 @@ public class SlashCommandListener extends ListenerAdapter {
                 String username = Objects.requireNonNull(event.getOption("username")).getAsString();
                 switch(Whitelist.getInstance(plugin).whitelistUserWithReturnValues(username)){
                     case 0 -> { message = "User " + username + " successfully whitelisted!"; }
-                    case -1 -> { message = "User" + username + " not be found!"; }
+                    case -1 -> { message = "User" + username + " not found!"; }
                     case -2 -> { message = "User " + username + " is already whitelisted!"; }
                     case -3 -> { message = "Error -3 occurred! Please contact an administrator."; }
                 }
