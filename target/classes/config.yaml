@@ -1,0 +1,14 @@
+# This is the config file for the Whitelister plugin
+# Dokumentation: https://github.com/SirQuacksALot/whitelister
+
+# Discord Bot
+bot_enabled: False
+bot_token: TOKEN
+
+# Database
+username: user
+password: password
+database: database
+host: server.example
+port: 1234
+dbms: mysql

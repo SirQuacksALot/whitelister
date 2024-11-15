@@ -1,0 +1,4 @@
+name: chans-whitelister
+version: '1.0-SNAPSHOT'
+main: seb.quacksalot.chansWhitelister.ChansWhitelister
+api-version: '1.21'
